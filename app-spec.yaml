@@ -5,7 +5,7 @@ functions:
 - github:
     branch: master
     deploy_on_push: true
-    repo: digitalocean/sample-functions-nodejs-qrcode
+    repo: AustinShelby/sample-functions-nodejs-qrcode
   name: qrcode
   routes:
   - path: /api
@@ -22,7 +22,7 @@ static_sites:
   github:
     branch: master
     deploy_on_push: true
-    repo: digitalocean/sample-functions-nodejs-qrcode
+    repo: AustinShelby/sample-functions-nodejs-qrcode
   name: web-app
   output_dir: dist
   routes:
